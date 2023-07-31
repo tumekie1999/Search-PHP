@@ -1,0 +1,55 @@
+/*
+Web Programming Step by Step, Homework 5 (Kevin Bacon) solution
+DO NOT DISTRIBUTE THIS FILE!
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-size: 11pt;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#frame {
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+	width: 1008px;
+	max-width: 90%;
+	margin: auto;
+}
+
+#banner, #w3c {
+	background-color: #0f131a;
+	background-image: url(banner-background.png);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#main {
+	background-color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+
+body, tr:nth-child(even) {
+	background-color: #dad9d4;
+}
+
+table {
+	border: 1px solid #dad9d4;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+form {
+	width: 24em;
+	margin: 1em auto;
+}
+
+form div, h1, table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
